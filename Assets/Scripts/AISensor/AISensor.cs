@@ -35,7 +35,8 @@ public class AISensor : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        scanInterval = 1.0f / scanFrequency; 
+        scanInterval = 1.0f / scanFrequency;
+        Debug.Log(layers.ToString());
     }
 
     // Update is called once per frame
